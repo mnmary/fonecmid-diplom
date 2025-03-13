@@ -38,4 +38,5 @@
   <content>Report.BKM_РасчетыССотрудниками</content>
   <content>Constant.BKM_НоменклатураАбонентскаяПлата</content>
   <content>Constant.BKM_НоменклатураРаботыСпециалиста</content>
+  <content>Catalog.BKM_УведомленияТелеграмБоту</content>
 </mdclass:Subsystem>
