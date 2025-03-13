@@ -10,7 +10,7 @@
   <name>BKM_ОбслуживаниеКлиентов</name>
   <synonym>
     <key>ru</key>
-    <value>Обслуживание клиентов</value>
+    <value>ВКМ обслуживание клиентов</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.BKM_ОбслуживаниеКлиентов.StandardAttribute.Number</inputByString>

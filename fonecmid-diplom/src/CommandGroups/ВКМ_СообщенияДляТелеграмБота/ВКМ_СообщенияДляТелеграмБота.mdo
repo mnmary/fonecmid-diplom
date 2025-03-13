@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommandGroup xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e3dd3874-1865-432b-9a9f-9f232b95de89">
+  <name>ВКМ_СообщенияДляТелеграмБота</name>
+  <synonym>
+    <key>ru</key>
+    <value>ВКМ для телеграм бота</value>
+  </synonym>
+  <representation>Auto</representation>
+</mdclass:CommandGroup>

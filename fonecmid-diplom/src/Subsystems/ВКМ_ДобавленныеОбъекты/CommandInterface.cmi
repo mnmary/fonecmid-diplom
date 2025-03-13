@@ -88,6 +88,10 @@
       <commands>CalculationRegister.BKM_ДополнительныеНачисления.StandardCommand.OpenList</commands>
       <commands>CalculationRegister.BKM_Удержания.StandardCommand.OpenList</commands>
     </placementFragments>
+    <placementFragments>
+      <group>CommandGroup.ВКМ_СообщенияДляТелеграмБота</group>
+      <commands>Catalog.BKM_УведомленияТелеграмБоту.StandardCommand.OpenList</commands>
+    </placementFragments>
   </commandsPlacement>
   <commandsOrder>
     <orderFragments>
@@ -126,6 +130,10 @@
       <commands>CalculationRegister.BKM_ОсновныеНачисления.StandardCommand.OpenList</commands>
       <commands>CalculationRegister.BKM_ДополнительныеНачисления.StandardCommand.OpenList</commands>
       <commands>CalculationRegister.BKM_Удержания.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>CommandGroup.ВКМ_СообщенияДляТелеграмБота</group>
+      <commands>Catalog.BKM_УведомленияТелеграмБоту.StandardCommand.OpenList</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

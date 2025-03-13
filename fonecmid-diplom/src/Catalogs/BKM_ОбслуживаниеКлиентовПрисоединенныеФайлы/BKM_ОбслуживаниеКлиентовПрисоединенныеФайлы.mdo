@@ -10,7 +10,7 @@
   <name>BKM_ОбслуживаниеКлиентовПрисоединенныеФайлы</name>
   <synonym>
     <key>ru</key>
-    <value>Присоединенные файлы (Обслуживание клиентов)</value>
+    <value>ВКМ присоединенные файлы (Обслуживание клиентов)</value>
   </synonym>
   <inputByString>Catalog.BKM_ОбслуживаниеКлиентовПрисоединенныеФайлы.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>

@@ -10,7 +10,7 @@
   <name>BKM_Сотрудники</name>
   <synonym>
     <key>ru</key>
-    <value>Сотрудники</value>
+    <value>ВКМ сотрудники</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.BKM_Сотрудники.StandardAttribute.Code</inputByString>

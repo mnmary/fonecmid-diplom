@@ -7,7 +7,7 @@
   <name>BKM_МассовоеСозданиеАктов</name>
   <synonym>
     <key>ru</key>
-    <value>Массовое создание актов</value>
+    <value>ВКМ массовое создание актов</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.BKM_МассовоеСозданиеАктов.Form.Форма</defaultForm>

@@ -11,7 +11,7 @@
   <name>BKM_ВыполненныеКлиентуРаботы</name>
   <synonym>
     <key>ru</key>
-    <value>Bыполненные клиенту работы</value>
+    <value>ВКМ выполненные клиенту работы</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <dataLockControlMode>Managed</dataLockControlMode>
