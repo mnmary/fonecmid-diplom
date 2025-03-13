@@ -119,6 +119,7 @@
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.ДоговорыКонтрагентов.Form.BKM_ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.ДоговорыКонтрагентов.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ДоговорыКонтрагентов.Form.ВКМ_ФормаВыбора</defaultChoiceForm>
   <attributes uuid="a81d1f8d-ea75-4cec-9742-5970eceda758">
     <name>Организация</name>
     <synonym>
@@ -241,6 +242,15 @@
     <synonym>
       <key>ru</key>
       <value>BKM форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6dd4c505-a70f-4675-af07-53ed9ca9c833">
+    <name>ВКМ_ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>ВКМ форма выбора</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

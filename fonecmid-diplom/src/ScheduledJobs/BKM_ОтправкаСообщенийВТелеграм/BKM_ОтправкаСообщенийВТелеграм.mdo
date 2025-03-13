@@ -6,7 +6,6 @@
     <value>BKM отправка сообщений в телеграм</value>
   </synonym>
   <methodName>CommonModule.ВКМ_ТелеграмБотСервер.BKM_ОтправкаСообщенийВТелеграм</methodName>
-  <description>Отправка сообщений в Телеграм</description>
   <use>true</use>
   <predefined>true</predefined>
   <restartCountOnFailure>3</restartCountOnFailure>
