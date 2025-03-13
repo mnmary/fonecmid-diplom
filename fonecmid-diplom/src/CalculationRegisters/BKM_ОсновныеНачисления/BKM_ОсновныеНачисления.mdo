@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CalculationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cc85e02d-14da-4398-8d15-260e300fbb80">
+  <producedTypes>
+    <selectionType typeId="dbd462e7-ca66-4cb8-b9a2-4d3f7d91a759" valueTypeId="fff2149d-d49f-40eb-8dc9-78451eb8ce6c"/>
+    <listType typeId="e0d1dd57-d7b3-44af-b5a4-2d1afe2dce51" valueTypeId="c7ef6b07-6a6e-447c-b35b-4f25145dd036"/>
+    <managerType typeId="fe5a5557-12e8-4f13-809f-7d3d7dd7bf93" valueTypeId="02f623a2-69dc-4b11-b779-aef557713552"/>
+    <recordSetType typeId="48f73936-2223-40c4-a82c-638317146a7d" valueTypeId="f3f85854-2cd5-4231-afc9-87be3f4c1c5c"/>
+    <recordKeyType typeId="dcf9e538-d7a3-4697-b6c5-6e630aef27f5" valueTypeId="b61c1e1e-9860-470d-94d6-3e48906d4ed5"/>
+    <recordType typeId="901c0876-5d53-4bf5-ae0e-19480965583b" valueTypeId="4fdd0214-17e3-4231-8e89-95f5b91c8065"/>
+    <recalcsType typeId="a95aca61-e1e9-47d7-a903-1b3efd7f8cf9" valueTypeId="de815b9f-5d20-4057-9010-b02180180ff1"/>
+  </producedTypes>
+  <name>BKM_ОсновныеНачисления</name>
+  <synonym>
+    <key>ru</key>
+    <value>BKM основные начисления</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <periodicity>Month</periodicity>
+  <actionPeriod>true</actionPeriod>
+  <basePeriod>true</basePeriod>
+  <schedule>InformationRegister.ВКМ_ГрафикиРабот</schedule>
+  <scheduleValue>InformationRegister.ВКМ_ГрафикиРабот.Resource.Значение</scheduleValue>
+  <scheduleDate>InformationRegister.ВКМ_ГрафикиРабот.Dimension.Дата</scheduleDate>
+  <chartOfCalculationTypes>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</chartOfCalculationTypes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="8979b86e-cfd3-4a94-90fe-fe1d15ae1f92">
+    <name>Результат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="2b3f515d-3432-4540-b354-39c2ce64a11f">
+    <name>ОтработаноДней</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отработано дней</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="f22de6fb-9450-4fd2-8fb7-403891618add">
+    <name>Показатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="d2971cb2-510e-49d4-93e0-660555891750">
+    <name>График</name>
+    <synonym>
+      <key>ru</key>
+      <value>График</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВКМ_ГрафикиРабот</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="1b8b3d93-cd83-4601-8623-749976f95764">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.BKM_Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+</mdclass:CalculationRegister>

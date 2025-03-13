@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="624e38d7-20fa-4f99-80d7-3eadd1e5c42e">
+  <producedTypes>
+    <objectType typeId="3cb592f9-d1b1-4c9c-be6d-2c2ff83ac463" valueTypeId="20f6d5ff-9edc-45e9-ac0b-7ca865971b42"/>
+    <refType typeId="6097c575-cdf5-4579-ac63-387abf792793" valueTypeId="c70b0937-ecf7-4dc9-a2f4-3a0d054991a4"/>
+    <selectionType typeId="3da5423e-51fd-4671-b2f9-d8214270f67f" valueTypeId="e6c27815-cb9c-467b-8e3c-c0aa77c49b10"/>
+    <listType typeId="9b496e1b-cb01-49a8-af8a-debb5a75fdcf" valueTypeId="1e04cd8c-18ee-4380-8452-1fe0b7426fbf"/>
+    <managerType typeId="30deb2a3-5d7a-4c46-9d6f-4b29f6742d52" valueTypeId="bbe68fe7-03a0-45cd-ba87-b4dd60c1cabc"/>
+  </producedTypes>
+  <name>BKM_УведомленияТелеграмБоту</name>
+  <synonym>
+    <key>ru</key>
+    <value>BKM уведомления телеграм боту</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.BKM_УведомленияТелеграмБоту.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.BKM_УведомленияТелеграмБоту.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Уведомление телеграм-боту</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="51504091-a926-48c4-9392-a569b9412e3f">
+    <name>ТекстСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст сообщения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

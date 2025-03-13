@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommandGroup xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a7463fa-c13d-45c0-8551-1787890de6d8">
+  <name>ВКМ_Обработки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработки</value>
+  </synonym>
+  <representation>Auto</representation>
+  <category>ActionsPanel</category>
+</mdclass:CommandGroup>

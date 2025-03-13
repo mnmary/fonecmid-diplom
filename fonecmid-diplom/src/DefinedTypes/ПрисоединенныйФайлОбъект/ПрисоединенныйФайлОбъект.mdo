@@ -17,5 +17,6 @@
     <types>CatalogObject.КонтрагентыПрисоединенныеФайлы</types>
     <types>CatalogObject.Файлы</types>
     <types>CatalogObject.РеализацияТоваровУслугПрисоединенныеФайлы</types>
+    <types>CatalogObject.BKM_ОбслуживаниеКлиентовПрисоединенныеФайлы</types>
   </type>
 </mdclass:DefinedType>
