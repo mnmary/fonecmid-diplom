@@ -36,6 +36,8 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <baseCalculationTypes>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</baseCalculationTypes>
+  <baseCalculationTypes>ChartOfCalculationTypes.BKM_ДополнительныеНачисления</baseCalculationTypes>
   <predefined>
     <items id="79392184-91bf-4fa7-8f7a-d3cf3a90b535">
       <name>ПремияПроцентом</name>

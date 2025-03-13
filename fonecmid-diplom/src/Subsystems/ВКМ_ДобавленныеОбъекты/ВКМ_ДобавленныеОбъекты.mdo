@@ -14,7 +14,6 @@
   <content>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</content>
   <content>ChartOfCalculationTypes.BKM_ДополнительныеНачисления</content>
   <content>ChartOfCalculationTypes.BKM_Удержания</content>
-  <content>CalculationRegister.BKM_ОсновныеНачисления</content>
   <content>Catalog.ВКМ_ГрафикиРабот</content>
   <content>InformationRegister.ВКМ_ГрафикиРабот</content>
   <content>DataProcessor.ВКМ_ЗаполнитьГрафикРабот</content>
@@ -39,4 +38,5 @@
   <content>Constant.BKM_НоменклатураАбонентскаяПлата</content>
   <content>Constant.BKM_НоменклатураРаботыСпециалиста</content>
   <content>Catalog.BKM_УведомленияТелеграмБоту</content>
+  <content>CalculationRegister.BKM_ОсновныеНачисления</content>
 </mdclass:Subsystem>

@@ -28,10 +28,10 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <realTimePosting>Deny</realTimePosting>
+  <registerRecords>AccumulationRegister.BKM_ВзаиморасчетыССотрудниками</registerRecords>
   <registerRecords>CalculationRegister.BKM_Удержания</registerRecords>
   <registerRecords>CalculationRegister.BKM_ДополнительныеНачисления</registerRecords>
   <registerRecords>AccumulationRegister.BKM_ВыполненныеСотрудникомРаботы</registerRecords>
-  <registerRecords>AccumulationRegister.BKM_ВзаиморасчетыССотрудниками</registerRecords>
   <registerRecords>CalculationRegister.BKM_ОсновныеНачисления</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>

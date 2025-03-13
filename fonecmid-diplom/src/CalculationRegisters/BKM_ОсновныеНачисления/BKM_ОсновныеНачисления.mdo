@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CalculationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cc85e02d-14da-4398-8d15-260e300fbb80">
+<mdclass:CalculationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da8445c3-d4aa-481a-a68e-6b7930130284">
   <producedTypes>
-    <selectionType typeId="dbd462e7-ca66-4cb8-b9a2-4d3f7d91a759" valueTypeId="fff2149d-d49f-40eb-8dc9-78451eb8ce6c"/>
-    <listType typeId="e0d1dd57-d7b3-44af-b5a4-2d1afe2dce51" valueTypeId="c7ef6b07-6a6e-447c-b35b-4f25145dd036"/>
-    <managerType typeId="fe5a5557-12e8-4f13-809f-7d3d7dd7bf93" valueTypeId="02f623a2-69dc-4b11-b779-aef557713552"/>
-    <recordSetType typeId="48f73936-2223-40c4-a82c-638317146a7d" valueTypeId="f3f85854-2cd5-4231-afc9-87be3f4c1c5c"/>
-    <recordKeyType typeId="dcf9e538-d7a3-4697-b6c5-6e630aef27f5" valueTypeId="b61c1e1e-9860-470d-94d6-3e48906d4ed5"/>
-    <recordType typeId="901c0876-5d53-4bf5-ae0e-19480965583b" valueTypeId="4fdd0214-17e3-4231-8e89-95f5b91c8065"/>
-    <recalcsType typeId="a95aca61-e1e9-47d7-a903-1b3efd7f8cf9" valueTypeId="de815b9f-5d20-4057-9010-b02180180ff1"/>
+    <selectionType typeId="fba5179b-0966-4023-8629-59889171c1ec" valueTypeId="771d021f-0ef8-4522-934d-a5f231348d21"/>
+    <listType typeId="b3e18ead-1092-45a4-a5b3-b9ca8aaa3ebb" valueTypeId="6403a6f8-4cf1-4a7c-9e47-d724edeca979"/>
+    <managerType typeId="11ea74b9-3571-4e20-ad56-ebaac8f40d8d" valueTypeId="6195def3-7b57-4a34-990d-6b79df5415ea"/>
+    <recordSetType typeId="03c04cd6-fbe3-4dca-aa14-dfb15e5fa8b4" valueTypeId="d6fbd123-c025-4db4-a6e3-93fce926737a"/>
+    <recordKeyType typeId="6ac83ae7-2c28-4334-9099-a3ce8c4c4b95" valueTypeId="41dfadf3-2435-4feb-8657-4b4db8690a52"/>
+    <recordType typeId="d72a5722-1014-4d1f-ba1a-8d263c2b5642" valueTypeId="5ad8ed13-2a5d-4e06-a5a3-7e1f26b1f48c"/>
+    <recalcsType typeId="51bd41bd-9929-4be5-9926-380fa8184543" valueTypeId="0c137218-8dd4-4ebf-aaf3-24b76316ed4b"/>
   </producedTypes>
   <name>BKM_ОсновныеНачисления</name>
   <synonym>
@@ -23,7 +23,7 @@
   <scheduleDate>InformationRegister.ВКМ_ГрафикиРабот.Dimension.Дата</scheduleDate>
   <chartOfCalculationTypes>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</chartOfCalculationTypes>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <resources uuid="8979b86e-cfd3-4a94-90fe-fe1d15ae1f92">
+  <resources uuid="21cf80b2-555d-4a25-a808-5a0c0a54fc07">
     <name>Результат</name>
     <synonym>
       <key>ru</key>
@@ -40,7 +40,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
-  <resources uuid="2b3f515d-3432-4540-b354-39c2ce64a11f">
+  <resources uuid="cf493da8-1b92-4ae0-863f-7d4a28e6899c">
     <name>ОтработаноДней</name>
     <synonym>
       <key>ru</key>
@@ -56,7 +56,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
-  <attributes uuid="f22de6fb-9450-4fd2-8fb7-403891618add">
+  <attributes uuid="acf8bef3-2400-4762-8f4f-9cd898275d73">
     <name>Показатель</name>
     <synonym>
       <key>ru</key>
@@ -73,7 +73,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
-  <attributes uuid="d2971cb2-510e-49d4-93e0-660555891750">
+  <attributes uuid="4fa08313-038b-47bc-a6dc-5354c0555c84">
     <name>График</name>
     <synonym>
       <key>ru</key>
@@ -85,8 +85,9 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
+    <scheduleLink>InformationRegister.ВКМ_ГрафикиРабот.Dimension.ГрафикРабот</scheduleLink>
   </attributes>
-  <dimensions uuid="1b8b3d93-cd83-4601-8623-749976f95764">
+  <dimensions uuid="1db045c8-b93a-4fa9-9f86-71b48c43fc4d">
     <name>Сотрудник</name>
     <synonym>
       <key>ru</key>

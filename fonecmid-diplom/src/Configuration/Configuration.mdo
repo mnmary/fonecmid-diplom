@@ -1419,7 +1419,7 @@
   <chartsOfCalculationTypes>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</chartsOfCalculationTypes>
   <chartsOfCalculationTypes>ChartOfCalculationTypes.BKM_ДополнительныеНачисления</chartsOfCalculationTypes>
   <chartsOfCalculationTypes>ChartOfCalculationTypes.BKM_Удержания</chartsOfCalculationTypes>
-  <calculationRegisters>CalculationRegister.BKM_ОсновныеНачисления</calculationRegisters>
   <calculationRegisters>CalculationRegister.BKM_ДополнительныеНачисления</calculationRegisters>
   <calculationRegisters>CalculationRegister.BKM_Удержания</calculationRegisters>
+  <calculationRegisters>CalculationRegister.BKM_ОсновныеНачисления</calculationRegisters>
 </mdclass:Configuration>

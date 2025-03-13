@@ -25,6 +25,10 @@
   <createOnInput>DontUse</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>основные начисления</value>
+  </objectPresentation>
   <codeLength>9</codeLength>
   <descriptionLength>40</descriptionLength>
   <codeType>String</codeType>

@@ -20,12 +20,6 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
-      <command>CalculationRegister.BKM_ОсновныеНачисления.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-      </visible>
-    </visibilityFragments>
-    <visibilityFragments>
       <command>CalculationRegister.BKM_ДополнительныеНачисления.StandardCommand.OpenList</command>
       <visible>
         <common>true</common>
@@ -84,7 +78,6 @@
     </placementFragments>
     <placementFragments>
       <group>NavigationPanelSeeAlso</group>
-      <commands>CalculationRegister.BKM_ОсновныеНачисления.StandardCommand.OpenList</commands>
       <commands>CalculationRegister.BKM_ДополнительныеНачисления.StandardCommand.OpenList</commands>
       <commands>CalculationRegister.BKM_Удержания.StandardCommand.OpenList</commands>
     </placementFragments>
@@ -127,7 +120,6 @@
     </orderFragments>
     <orderFragments>
       <group>NavigationPanelSeeAlso</group>
-      <commands>CalculationRegister.BKM_ОсновныеНачисления.StandardCommand.OpenList</commands>
       <commands>CalculationRegister.BKM_ДополнительныеНачисления.StandardCommand.OpenList</commands>
       <commands>CalculationRegister.BKM_Удержания.StandardCommand.OpenList</commands>
     </orderFragments>
