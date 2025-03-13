@@ -43,6 +43,12 @@
       <command>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.StandardCommand.OpenList</command>
       <visible/>
     </visibilityFragments>
+    <visibilityFragments>
+      <command>CalculationRegister.BKM_ОсновныеНачисления.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
   </commandsVisibility>
   <commandsPlacement>
     <placementFragments>
@@ -80,6 +86,7 @@
       <group>NavigationPanelSeeAlso</group>
       <commands>CalculationRegister.BKM_ДополнительныеНачисления.StandardCommand.OpenList</commands>
       <commands>CalculationRegister.BKM_Удержания.StandardCommand.OpenList</commands>
+      <commands>CalculationRegister.BKM_ОсновныеНачисления.StandardCommand.OpenList</commands>
     </placementFragments>
     <placementFragments>
       <group>CommandGroup.ВКМ_СообщенияДляТелеграмБота</group>
@@ -120,6 +127,7 @@
     </orderFragments>
     <orderFragments>
       <group>NavigationPanelSeeAlso</group>
+      <commands>CalculationRegister.BKM_ОсновныеНачисления.StandardCommand.OpenList</commands>
       <commands>CalculationRegister.BKM_ДополнительныеНачисления.StandardCommand.OpenList</commands>
       <commands>CalculationRegister.BKM_Удержания.StandardCommand.OpenList</commands>
     </orderFragments>
