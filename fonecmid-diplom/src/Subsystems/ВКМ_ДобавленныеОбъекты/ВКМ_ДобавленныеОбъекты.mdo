@@ -39,4 +39,5 @@
   <content>Constant.BKM_НоменклатураРаботыСпециалиста</content>
   <content>Catalog.BKM_УведомленияТелеграмБоту</content>
   <content>CalculationRegister.BKM_ОсновныеНачисления</content>
+  <content>Report.ВКМ_ВыполненныеАкты</content>
 </mdclass:Subsystem>
