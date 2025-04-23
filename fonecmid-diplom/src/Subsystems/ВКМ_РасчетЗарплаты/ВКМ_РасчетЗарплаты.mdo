@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a58431f2-af7a-4265-aa19-02adcb6eb5da">
+  <name>ВКМ_РасчетЗарплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет зарплаты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.BKM_ГрафикОтпусков</content>
+  <content>Document.BKM_НачислениеЗаработнойПлаты</content>
+  <content>Document.BKM_ВыплатаЗарплаты</content>
+  <content>Document.BKM_НачислениеФиксированнойПремии</content>
+  <content>Report.BKM_РасчетыССотрудниками</content>
+  <content>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</content>
+  <content>ChartOfCalculationTypes.BKM_Удержания</content>
+  <content>ChartOfCalculationTypes.BKM_ДополнительныеНачисления</content>
+  <content>InformationRegister.ВКМ_УсловияОплатыСотрудников</content>
+  <content>InformationRegister.BKM_СведенияОбОтпусках</content>
+  <content>InformationRegister.ВКМ_ГрафикиРабот</content>
+  <content>Catalog.ВКМ_ГрафикиРабот</content>
+  <content>Catalog.BKM_Сотрудники</content>
+  <content>Report.BKM_РасходЗапланированныхОтпусков</content>
+  <content>DataProcessor.ВКМ_ЗаполнитьГрафикРабот</content>
+  <content>AccumulationRegister.BKM_ВзаиморасчетыССотрудниками</content>
+  <content>AccumulationRegister.BKM_ВыполненныеСотрудникомРаботы</content>
+  <content>CalculationRegister.BKM_Удержания</content>
+  <content>CalculationRegister.BKM_ДополнительныеНачисления</content>
+  <content>CalculationRegister.BKM_ОсновныеНачисления</content>
+</mdclass:Subsystem>
