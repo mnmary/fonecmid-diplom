@@ -19,6 +19,6 @@
   <content>AccumulationRegister.BKM_ВыполненныеКлиентуРаботы</content>
   <content>Report.ВКМ_ВыработкаСпециалистов</content>
   <content>DataProcessor.BKM_МассовоеСозданиеАктов</content>
-  <content>Report.ВКМ_ВыполненныеАкты</content>
+  <content>Report.ВКМ_АнализВыставленныхАктов</content>
   <content>Catalog.Номенклатура</content>
 </mdclass:Subsystem>

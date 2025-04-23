@@ -4,13 +4,13 @@
     <objectType typeId="df2df249-a170-4aad-b156-41787c820e38" valueTypeId="f3f88144-391d-442a-9641-04124d097659"/>
     <managerType typeId="3d7eefdf-03d7-480a-8b16-6337efdc3016" valueTypeId="6aaec28c-926c-4fa6-a429-7fd0c7b586b7"/>
   </producedTypes>
-  <name>ВКМ_ВыполненныеАкты</name>
+  <name>ВКМ_АнализВыставленныхАктов</name>
   <synonym>
     <key>ru</key>
-    <value>ВКМ выполненные акты</value>
+    <value>ВКМ анализ выставленных актов</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <mainDataCompositionSchema>Report.ВКМ_ВыполненныеАкты.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <mainDataCompositionSchema>Report.ВКМ_АнализВыставленныхАктов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
   <templates uuid="bc8ebe00-cd03-4c03-a8fb-14df0ea4dda0">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
     <synonym>

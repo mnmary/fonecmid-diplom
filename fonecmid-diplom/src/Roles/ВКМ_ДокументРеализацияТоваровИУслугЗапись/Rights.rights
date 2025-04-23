@@ -174,7 +174,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Report.ВКМ_ВыполненныеАкты</name>
+		<name>Report.ВКМ_АнализВыставленныхАктов</name>
 		<right>
 			<name>Use</name>
 			<value>true</value>
@@ -256,6 +256,17 @@
 		</right>
 		<right>
 			<name>SwitchToDataHistoryVersion</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.BKM_ОбслуживаниеКлиентовПрисоединенныеФайлы</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
