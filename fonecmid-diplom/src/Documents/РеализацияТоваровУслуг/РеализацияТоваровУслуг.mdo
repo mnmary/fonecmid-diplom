@@ -71,8 +71,8 @@
   <defaultObjectForm>Document.РеализацияТоваровУслуг.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.РеализацияТоваровУслуг.Form.ФормаСписка</defaultListForm>
   <registerRecords>AccumulationRegister.ОстаткиТоваров</registerRecords>
-  <registerRecords>AccumulationRegister.ОбработкаЗаказов</registerRecords>
   <registerRecords>AccumulationRegister.BKM_ВыполненныеКлиентуРаботы</registerRecords>
+  <registerRecords>AccumulationRegister.ОбработкаЗаказов</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="c7ac2c20-577c-4b41-9689-ee5f9e0b5bea">

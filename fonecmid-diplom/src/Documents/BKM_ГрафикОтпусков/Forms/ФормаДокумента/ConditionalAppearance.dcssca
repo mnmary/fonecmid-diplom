@@ -20,7 +20,7 @@
 		</selection>
 		<filter>
 			<item xsi:type="FilterItemComparison">
-				<left xsi:type="dcscor:Field">Объект.ОтпускаСотрудников.ПродолжительностьОтпуска</left>
+				<left xsi:type="dcscor:Field">Объект.ОтпускаСотрудников.ОбщееКоличествоДнейОтпуска</left>
 				<comparisonType>Greater</comparisonType>
 				<right xsi:type="xs:decimal">28</right>
 			</item>

@@ -94,6 +94,7 @@
 				<v8:DateFractions>DateTime</v8:DateFractions>
 			</v8:DateQualifiers>
 		</valueType>
+		<value xsi:nil="true"/>
 		<useRestriction>false</useRestriction>
 	</parameter>
 	<parameter>
@@ -125,6 +126,7 @@
 				<v8:DateFractions>Date</v8:DateFractions>
 			</v8:DateQualifiers>
 		</valueType>
+		<value xsi:nil="true"/>
 		<useRestriction>true</useRestriction>
 		<expression>КОНЕЦПЕРИОДА(&amp;ДатаОтчета,"ГОД")</expression>
 		<availableAsField>false</availableAsField>
@@ -146,12 +148,7 @@
 						<dcsat:value xsi:type="dcscor:Parameter">год</dcsat:value>
 					</dcsat:item>
 					<dcsat:item xsi:type="dcsat:Field">
-						<dcsat:value xsi:type="v8:LocalStringType">
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content/>
-							</v8:item>
-						</dcsat:value>
+						<dcsat:value xsi:type="v8:LocalStringType"/>
 					</dcsat:item>
 					<dcsat:appearance>
 						<dcscor:item>
@@ -184,12 +181,7 @@
 						<dcsat:value xsi:type="dcscor:Parameter">год</dcsat:value>
 					</dcsat:item>
 					<dcsat:item xsi:type="dcsat:Field">
-						<dcsat:value xsi:type="v8:LocalStringType">
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content/>
-							</v8:item>
-						</dcsat:value>
+						<dcsat:value xsi:type="v8:LocalStringType"/>
 					</dcsat:item>
 					<dcsat:appearance>
 						<dcscor:item>
@@ -319,12 +311,12 @@
 				</dcsset:selection>
 				<dcsset:outputParameters>
 					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-						<dcscor:parameter>ВариантИспользованияГруппировки</dcscor:parameter>
-						<dcscor:value xsi:type="dcsset:DataCompositionGroupUseVariant">AdditionalInformation</dcscor:value>
-					</dcscor:item>
-					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 						<dcscor:parameter>МакетОформления</dcscor:parameter>
 						<dcscor:value xsi:type="xs:string">БезОформления</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ВариантИспользованияГруппировки</dcscor:parameter>
+						<dcscor:value xsi:type="dcsset:DataCompositionGroupUseVariant">AdditionalInformation</dcscor:value>
 					</dcscor:item>
 				</dcsset:outputParameters>
 			</dcsset:item>
@@ -335,7 +327,6 @@
 				<dcsset:selection>
 					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
 				</dcsset:selection>
-				<dcsset:outputParameters/>
 			</dcsset:item>
 		</dcsset:settings>
 	</settingsVariant>
