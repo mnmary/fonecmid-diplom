@@ -154,7 +154,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="c33367ed-7661-4934-a2a6-d6334082e7c2">
+  <attributes uuid="ce023e30-3974-4c68-96cf-f066da8c5dc0">
     <name>BKM_ДатаНачалаДействияДоговора</name>
     <synonym>
       <key>ru</key>
@@ -172,7 +172,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="714c7461-a322-4107-8d5f-0d141fd48712">
+  <attributes uuid="e2a9bcd0-57a9-4b30-b6fd-26fe20ab0ba2">
     <name>BKM_ДатаОкончанияДействияДоговора</name>
     <synonym>
       <key>ru</key>
@@ -190,7 +190,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="28c658c8-445c-4a7e-b92c-59fa823ef79d">
+  <attributes uuid="4a86c909-4292-43f8-8647-b8fc700daa30">
     <name>BKM_ЕжемесячнаяАбонентскаяПлата</name>
     <synonym>
       <key>ru</key>
@@ -209,7 +209,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="58d591a6-cd3b-45d4-8c84-4d3e7deb479a">
+  <attributes uuid="b6336ec1-ffe5-4490-9f66-293b9e44ec14">
     <name>BKM_СтоимостьЧасаРаботыСпециалиста</name>
     <synonym>
       <key>ru</key>
@@ -237,20 +237,20 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="c9eb9ae1-bd00-4786-81cd-68dc0efdc148">
-    <name>BKM_ФормаЭлемента</name>
-    <synonym>
-      <key>ru</key>
-      <value>BKM форма элемента</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="6dd4c505-a70f-4675-af07-53ed9ca9c833">
+  <forms uuid="9dd0ae36-0451-4495-868d-b955f45c021e">
     <name>ВКМ_ФормаВыбора</name>
     <synonym>
       <key>ru</key>
       <value>ВКМ форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b2ba0ded-0c81-48ee-b474-b3192b3de736">
+    <name>BKM_ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>BKM форма элемента</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

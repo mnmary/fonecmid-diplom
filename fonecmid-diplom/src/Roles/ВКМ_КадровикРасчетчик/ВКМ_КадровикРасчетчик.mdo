@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7dccef6a-a687-474d-918d-8c7d1f1d2036">
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d6bc8213-38ae-4798-92a5-95b95d85e63c">
   <name>ВКМ_КадровикРасчетчик</name>
   <synonym>
     <key>ru</key>

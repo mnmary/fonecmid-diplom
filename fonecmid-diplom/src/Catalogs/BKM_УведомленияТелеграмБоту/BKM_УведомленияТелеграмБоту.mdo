@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="624e38d7-20fa-4f99-80d7-3eadd1e5c42e">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="61df829e-1bbe-4bb3-b004-111c7118180e">
   <producedTypes>
-    <objectType typeId="3cb592f9-d1b1-4c9c-be6d-2c2ff83ac463" valueTypeId="20f6d5ff-9edc-45e9-ac0b-7ca865971b42"/>
-    <refType typeId="6097c575-cdf5-4579-ac63-387abf792793" valueTypeId="c70b0937-ecf7-4dc9-a2f4-3a0d054991a4"/>
-    <selectionType typeId="3da5423e-51fd-4671-b2f9-d8214270f67f" valueTypeId="e6c27815-cb9c-467b-8e3c-c0aa77c49b10"/>
-    <listType typeId="9b496e1b-cb01-49a8-af8a-debb5a75fdcf" valueTypeId="1e04cd8c-18ee-4380-8452-1fe0b7426fbf"/>
-    <managerType typeId="30deb2a3-5d7a-4c46-9d6f-4b29f6742d52" valueTypeId="bbe68fe7-03a0-45cd-ba87-b4dd60c1cabc"/>
+    <objectType typeId="68cf6894-a799-40af-aa0c-d8c6bf3eeff3" valueTypeId="ad328fb0-ef50-4a56-8bad-2d42b6d7c16e"/>
+    <refType typeId="2ce49a4e-9b99-40de-9671-b30a7a022893" valueTypeId="d0fe7a7b-3f3e-4edf-a103-ff040bf372f3"/>
+    <selectionType typeId="6ee35e07-087b-448c-9660-199040459d1f" valueTypeId="0c1bac51-f1c3-4e15-ba4a-725b5daba88b"/>
+    <listType typeId="4b54d1ac-ffe3-4a66-979e-ae304ffdd405" valueTypeId="b004f724-863d-4361-b24d-e18d41cd9534"/>
+    <managerType typeId="6e435fd1-ac08-4ce2-81c6-a9c9f6d88b0d" valueTypeId="ad6cc86c-41d5-497e-b304-b4656253cd71"/>
   </producedTypes>
   <name>BKM_УведомленияТелеграмБоту</name>
   <synonym>
@@ -104,7 +104,7 @@
   <codeAllowedLength>Variable</codeAllowedLength>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <attributes uuid="51504091-a926-48c4-9392-a569b9412e3f">
+  <attributes uuid="f52b13e2-66a8-43d1-95f3-7c8e4d2ba4cf">
     <name>ТекстСообщения</name>
     <synonym>
       <key>ru</key>

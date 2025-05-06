@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="474ff0d9-cc4c-42ac-b8f7-5e0689e188d7">
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ec1a64fb-df30-487d-a8b0-1f0132edab44">
   <producedTypes>
-    <selectionType typeId="6db09498-bad1-45b4-a8ef-28c64e76eed5" valueTypeId="1d950df8-29c6-4efc-9eee-d0025a488a67"/>
-    <listType typeId="31f72f35-d5ff-46de-9afe-811174896085" valueTypeId="7422ccc4-ee26-4c48-b73d-8a03403aeefc"/>
-    <managerType typeId="8da2ea64-06b6-43d4-a611-119a1c49bcf4" valueTypeId="8e71293a-eef3-44e2-8d98-5ed519febf27"/>
-    <recordSetType typeId="18d3fa67-7c27-4ae3-a173-5946c0afbed7" valueTypeId="41490c98-5c68-41a7-b469-9442f7582b63"/>
-    <recordKeyType typeId="fcca748b-dfe9-4404-b4be-9f8f28ef89de" valueTypeId="559eb7dd-046f-46c7-b743-86115f15f0bd"/>
-    <recordType typeId="5fc0abf5-e48e-45fc-a69e-2bd81bc43599" valueTypeId="3b0788d8-e93e-435c-9d28-f40c5b17b7ff"/>
-    <recordManagerType typeId="03dc2f50-ab39-4282-a001-329a003b78c0" valueTypeId="0eede00a-b2a4-473b-b460-39afa92acdb4"/>
+    <selectionType typeId="1c2772df-d47d-40b4-a5a7-d91a2aeccfe4" valueTypeId="ba1332cb-454e-4b2f-a80d-45738df5ecb7"/>
+    <listType typeId="44203e43-264b-4636-b84a-e6e66a5ab955" valueTypeId="6a86259a-544f-442b-ac9e-5ae6f0b94636"/>
+    <managerType typeId="5dd47e25-80ab-4e71-a570-d5a801fdf552" valueTypeId="fd531a0b-a78c-4164-898a-1621328b0663"/>
+    <recordSetType typeId="aee2fee4-fbce-4961-be12-c81aeeac376f" valueTypeId="46fecb2d-1c57-42c2-86d0-eb0d2f0dec94"/>
+    <recordKeyType typeId="10fc1e3c-e981-4572-982b-618b6392aef8" valueTypeId="1ef00eb6-2a12-4fc3-98b6-0a829a034ca1"/>
+    <recordType typeId="cd06b56f-79a5-4cdd-8bed-85c343063c93" valueTypeId="8a2268cf-951a-4b75-a526-f42eaa760d46"/>
+    <recordManagerType typeId="3ec76357-657c-4545-8abc-7768cfc58a7a" valueTypeId="d725e430-7826-46c3-8caf-9d55b1b22d71"/>
   </producedTypes>
   <name>ВКМ_ГрафикиРабот</name>
   <synonym>
@@ -54,7 +54,7 @@
     <key>ru</key>
     <value>График работ</value>
   </recordPresentation>
-  <resources uuid="cc9944e4-68b9-458f-bfbc-4addbb95f83b">
+  <resources uuid="019032d8-1c12-4017-bcd4-ed8179edb18e">
     <name>Значение</name>
     <synonym>
       <key>ru</key>
@@ -73,7 +73,7 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <dimensions uuid="b608884d-d339-4e25-bcf9-c17f0f3cc60d">
+  <dimensions uuid="85dd9eea-58e4-4eb0-bc4f-397f272bd3df">
     <name>Дата</name>
     <synonym>
       <key>ru</key>
@@ -92,7 +92,7 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
-  <dimensions uuid="0e3e8055-3841-420f-8aff-1dd2aee0c2f7">
+  <dimensions uuid="be3fd785-ca6f-4ba4-9fa2-d017ebe1b7e5">
     <name>ГрафикРабот</name>
     <synonym>
       <key>ru</key>

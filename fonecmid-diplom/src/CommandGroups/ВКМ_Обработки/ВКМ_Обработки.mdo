@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommandGroup xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a7463fa-c13d-45c0-8551-1787890de6d8">
+<mdclass:CommandGroup xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c00ec4d2-695d-41d2-95ad-99a9ecc9b026">
   <name>ВКМ_Обработки</name>
   <synonym>
     <key>ru</key>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9bbe41ac-2aa5-4d3b-ad48-3896af78fc7f">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d46cb4ce-f7b4-4e60-be86-3e33406907a9">
   <producedTypes>
-    <objectType typeId="1d69d014-2427-438d-bf0a-795bed063c35" valueTypeId="a4949684-7686-4108-932e-2dd4b6a837f4"/>
-    <refType typeId="8ef77f40-5733-4aac-ba4c-bc45363c670a" valueTypeId="42b273e7-da45-4e29-afb9-d9edc76875b3"/>
-    <selectionType typeId="b3b1a959-0a10-4d68-ad2b-10b4336524e3" valueTypeId="e3fbf3b9-4f46-4415-bc49-f28e2c5f0655"/>
-    <listType typeId="186108f8-910d-4908-b3a6-ed64ad3c8121" valueTypeId="3952bb7c-2810-4220-b0c9-f47131ea3365"/>
-    <managerType typeId="0825ba97-baa3-4502-b63f-8b1ab359166a" valueTypeId="ff368035-6ac8-4688-bcd3-faca36eea33c"/>
+    <objectType typeId="34e0b0a6-7604-409d-ae38-21d75a09b41d" valueTypeId="14a374fa-50df-4463-8e00-737b240283e2"/>
+    <refType typeId="bfc2b749-ca7b-47cc-9089-0ec84a5d2ebf" valueTypeId="4198f295-e590-4696-9d68-d6c61df354a5"/>
+    <selectionType typeId="f9bd6af8-295a-4ac9-93a8-be9fc598b0a5" valueTypeId="2ab36ebf-b086-4cc2-841e-9e4b82f94b04"/>
+    <listType typeId="fcd457fb-6200-4b28-a3f5-e4ee90088f0c" valueTypeId="3c2759dd-7ed4-43e5-853c-4312babd0d0c"/>
+    <managerType typeId="c2c03ec4-1904-4cf3-98af-8f87d462ca4f" valueTypeId="1bdc782b-b55b-4705-a015-d6bc2280edf6"/>
   </producedTypes>
   <name>ВКМ_ГрафикиРабот</name>
   <synonym>

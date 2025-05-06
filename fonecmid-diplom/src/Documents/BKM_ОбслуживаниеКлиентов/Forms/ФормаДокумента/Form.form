@@ -194,6 +194,12 @@
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
+        <choiceParameterLinks>
+          <name>Отбор.Владелец</name>
+          <datapath xsi:type="form:DataPath">
+            <segments>Объект.Клиент</segments>
+          </datapath>
+        </choiceParameterLinks>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -844,10 +850,7 @@
   <commandInterface>
     <navigationPanel>
       <cmiFragmentRecord>
-        <command>AccumulationRegister.BKM_ВыполненныеКлиентуРаботы.StandardCommand.OpenByRecorder</command>
-        <commandParameter xsi:type="form:DataPath">
-          <segments>Объект.Ref</segments>
-        </commandParameter>
+        <command>0</command>
         <group>FormNavigationPanelGoTo</group>
         <index>0</index>
         <userVisible>
@@ -856,18 +859,12 @@
       </cmiFragmentRecord>
       <cmiFragmentRecord>
         <command>CommonCommand.ПрисоединенныеФайлы</command>
-        <commandParameter xsi:type="form:DataPath">
-          <segments>Объект.Ref</segments>
-        </commandParameter>
         <group>FormNavigationPanelGoTo</group>
         <index>1</index>
         <userVisible/>
       </cmiFragmentRecord>
       <cmiFragmentRecord>
-        <command>AccumulationRegister.BKM_ВыполненныеСотрудникомРаботы.StandardCommand.OpenByRecorder</command>
-        <commandParameter xsi:type="form:DataPath">
-          <segments>Объект.Ref</segments>
-        </commandParameter>
+        <command>0</command>
         <group>FormNavigationPanelGoTo</group>
         <index>2</index>
         <userVisible>

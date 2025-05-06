@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc79dc30-7d50-4b54-86da-3527fa5afecd">
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20ac9231-b891-4aa4-996c-1dba73ff9388">
   <producedTypes>
-    <selectionType typeId="9c1591db-97ed-486f-b67c-a73f5dd0142c" valueTypeId="46c51c71-e612-4eb7-969b-12dd482bf028"/>
-    <listType typeId="41f5f0ab-a101-4fe5-8e0f-3dcd04a6d680" valueTypeId="3380fbf3-e165-430c-b531-9cf49e000994"/>
-    <managerType typeId="3f0d6357-01dc-49db-a437-d683b67bed80" valueTypeId="52093618-c34d-46b9-ad3b-4b16473fad4f"/>
-    <recordSetType typeId="36346448-9e3b-46a3-b5b3-a4a865204b72" valueTypeId="52140a0f-9691-44bd-a4b7-eee49293d5f9"/>
-    <recordKeyType typeId="0ab1827f-65ee-4502-839d-c1ee18bd1fb7" valueTypeId="2a05298e-cec9-4c1f-a872-e1eeff551ef7"/>
-    <recordType typeId="e3d25073-2c30-4e46-afe8-23cea7c0b8bc" valueTypeId="b42b60b8-f197-40a9-bf64-c7e6282f3f2e"/>
-    <recordManagerType typeId="5b3f276b-4828-455e-8366-3a44413d5807" valueTypeId="a6b27567-8225-4a7c-a70c-bafb677bc242"/>
+    <selectionType typeId="902e7205-c25d-4078-a117-64fb58bfe21c" valueTypeId="a6252c79-5c4a-4540-8949-ae59426a5d4d"/>
+    <listType typeId="0836fd10-8ad2-47a7-b8ba-b294f2cce2ff" valueTypeId="9fa0bdde-3587-4515-b78b-131de8dd6b8e"/>
+    <managerType typeId="5e0585cb-26e2-49d5-8c2c-56f8c6b40841" valueTypeId="bfe1a8e2-4ffb-4dd2-be7b-eaf73f52176f"/>
+    <recordSetType typeId="d3484179-4cc0-41a6-bbbe-b18430ba5acc" valueTypeId="4f520a3f-158d-421b-8604-37a4a2736c7e"/>
+    <recordKeyType typeId="02eb13f3-514a-475d-bdc6-92608a763cc6" valueTypeId="52918183-6533-4efe-b5a4-2ced48e5a10b"/>
+    <recordType typeId="112b81b8-d0f2-4b24-9112-2f4453349187" valueTypeId="b19d9843-73e3-465d-bc27-e177c0d1c9de"/>
+    <recordManagerType typeId="dee6acb6-61c1-4e5e-b1a9-27eca6a640ed" valueTypeId="29fcbb65-e484-4493-958a-784ec4b6a92e"/>
   </producedTypes>
-  <name>BKM_СведенияОбОтпусках</name>
+  <name>ВКМ_СведенияОбОтпусках</name>
   <synonym>
     <key>ru</key>
-    <value>BKM сведения об отпусках</value>
+    <value>ВКМ сведения об отпусках</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
@@ -52,7 +52,7 @@
   <informationRegisterPeriodicity>Year</informationRegisterPeriodicity>
   <writeMode>RecorderSubordinate</writeMode>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <resources uuid="ba8148b9-7d75-4791-bebc-df1aa305403d">
+  <resources uuid="2f0c8b67-f83c-4df9-8178-d9b57554e8be">
     <name>ПлановаяПродолжительностьОтпуска</name>
     <synonym>
       <key>ru</key>
@@ -70,7 +70,7 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <dimensions uuid="f2083db5-a25f-4644-a91a-3da2eb142a43">
+  <dimensions uuid="6e75841a-70b4-484b-b5ff-e4271882d9d1">
     <name>Сотрудник</name>
     <synonym>
       <key>ru</key>
@@ -86,7 +86,7 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
-  <dimensions uuid="4451f90c-387a-4c76-b2f9-e35b70e6c682">
+  <dimensions uuid="28698655-7fd5-4754-a611-5733f15a1009">
     <name>Год</name>
     <synonym>
       <key>ru</key>

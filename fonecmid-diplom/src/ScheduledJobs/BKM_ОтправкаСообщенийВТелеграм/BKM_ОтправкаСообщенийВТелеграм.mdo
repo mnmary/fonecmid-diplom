@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="28b80a07-4ef4-4ba7-bc28-8086b078fed6">
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9985e0ee-9242-498a-8166-20ab97bb16d8">
   <name>BKM_ОтправкаСообщенийВТелеграм</name>
   <synonym>
     <key>ru</key>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d1e95c58-baa9-4d71-82cf-62a3d283a2cd">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f3f11f7b-c3e4-44e2-9db5-3c485b13ea40">
   <producedTypes>
-    <objectType typeId="6ee7d082-7d8a-4f37-b06b-e3e1d2862e83" valueTypeId="b417a412-0877-4734-906a-9dd8f7e3e4f5"/>
-    <refType typeId="5462813b-8c0b-45ab-ab93-6bc9be05a976" valueTypeId="a9d88086-0882-4cc9-84de-775862bc644b"/>
-    <selectionType typeId="c05ad757-eb38-4f82-8541-453a02a64bae" valueTypeId="8cece957-e0a5-4c4b-9d94-75f4e1630767"/>
-    <listType typeId="561426b3-4eaf-4de9-bc61-5404c58ba3a7" valueTypeId="8e962dd8-0918-45e7-89a4-f403e25fd7cf"/>
-    <managerType typeId="c392eee6-62c3-4fe5-b828-d2f8e4c3b9e2" valueTypeId="b98eebc8-7c42-4cad-baf8-22cf0daf8305"/>
+    <objectType typeId="1fc60d57-fa18-4ca1-aed2-95cea664de4e" valueTypeId="b347e7f4-bb1c-44dd-a23b-e9b8b83035c9"/>
+    <refType typeId="6bad751d-d2df-4f2b-8a26-d8f195c17523" valueTypeId="b896491d-c529-424d-95b2-3a0228c16b15"/>
+    <selectionType typeId="cd11e575-c0e7-4010-bede-b0f1d2272ceb" valueTypeId="f7dee2c6-a4e4-4e77-842d-b850b5fdf842"/>
+    <listType typeId="46d8ee70-ae9c-41f0-b233-750ddf9d376f" valueTypeId="9b8c813f-de9c-452e-8e63-3b836b4327c7"/>
+    <managerType typeId="6ba49746-7ed1-4b75-9b3e-47ab7477077b" valueTypeId="7e9f6bcb-7e3e-4ffe-9129-5819e1be52de"/>
   </producedTypes>
   <name>BKM_НачислениеФиксированнойПремии</name>
   <synonym>
@@ -68,12 +68,12 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <registerRecords>CalculationRegister.ВКМ_Удержания</registerRecords>
+  <registerRecords>CalculationRegister.ВКМ_ДополнительныеНачисления</registerRecords>
   <registerRecords>AccumulationRegister.BKM_ВзаиморасчетыССотрудниками</registerRecords>
-  <registerRecords>CalculationRegister.BKM_Удержания</registerRecords>
-  <registerRecords>CalculationRegister.BKM_ДополнительныеНачисления</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="bc5887b5-9023-4531-95ae-a670f81f5a13">
+  <attributes uuid="3bfcee30-a44a-4979-b00f-59753c8f44ce">
     <name>Ответственный</name>
     <synonym>
       <key>ru</key>
@@ -88,7 +88,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="51b1b4ef-e494-4085-8bec-fe4104e2f363">
+  <attributes uuid="25b8659d-4b2b-420d-8fc5-cff0485005a2">
     <name>Комментарий</name>
     <synonym>
       <key>ru</key>
@@ -105,10 +105,10 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <tabularSections uuid="73e5469a-f3a8-4aae-8ecd-55734c4b4d9c">
+  <tabularSections uuid="a79dadb8-9cb6-493e-bc81-8e1c641f3f88">
     <producedTypes>
-      <objectType typeId="954cecf1-018c-490f-935e-725b94d12dec" valueTypeId="1969c56d-8400-4eb3-9ebb-2aa0992f5eff"/>
-      <rowType typeId="f77198ff-a040-4ec9-92da-a84bc6c7cddc" valueTypeId="ca65628e-c89d-4a7c-94f2-413c10359e2d"/>
+      <objectType typeId="afdb6a4a-285c-48d9-8bfb-766d948da41b" valueTypeId="7cdcef3f-3059-4a02-bb87-759c976c0b3d"/>
+      <rowType typeId="7113a9e8-c380-4183-a427-a0f830ab3519" valueTypeId="fc9d9778-17c4-4ebf-ad4d-78501c974b44"/>
     </producedTypes>
     <name>СписокСотрудников</name>
     <synonym>
@@ -123,7 +123,7 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
     </standardAttributes>
-    <attributes uuid="6698a223-588b-4614-8166-8cebd3cb7639">
+    <attributes uuid="654f5f2c-a3c9-4439-96d7-c593630232c5">
       <name>Сотрудник</name>
       <synonym>
         <key>ru</key>
@@ -137,7 +137,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="f3a7d43c-12ff-4432-ac6b-45a0a54a070a">
+    <attributes uuid="81ca8d45-a7a9-4895-895c-546858c72606">
       <name>СуммаПремии</name>
       <synonym>
         <key>ru</key>

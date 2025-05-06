@@ -276,6 +276,13 @@
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>
+          <choiceForm>Catalog.ДоговорыКонтрагентов.Form.ВКМ_ФормаВыбора</choiceForm>
+          <choiceParameterLinks>
+            <name>Отбор.Владелец</name>
+            <datapath xsi:type="form:DataPath">
+              <segments>Объект.Контрагент</segments>
+            </datapath>
+          </choiceParameterLinks>
         </extInfo>
       </items>
       <visible>true</visible>

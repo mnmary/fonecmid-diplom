@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a58431f2-af7a-4265-aa19-02adcb6eb5da">
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="995dbebd-5cd2-483d-9042-9e7b4a7c3012">
   <name>ВКМ_РасчетЗарплаты</name>
   <synonym>
     <key>ru</key>
@@ -7,25 +7,29 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>Document.BKM_ГрафикОтпусков</content>
-  <content>Document.BKM_НачислениеЗаработнойПлаты</content>
-  <content>Document.BKM_ВыплатаЗарплаты</content>
-  <content>Document.BKM_НачислениеФиксированнойПремии</content>
-  <content>Report.BKM_РасчетыССотрудниками</content>
-  <content>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</content>
-  <content>ChartOfCalculationTypes.BKM_Удержания</content>
-  <content>ChartOfCalculationTypes.BKM_ДополнительныеНачисления</content>
-  <content>InformationRegister.ВКМ_УсловияОплатыСотрудников</content>
-  <content>InformationRegister.BKM_СведенияОбОтпусках</content>
-  <content>InformationRegister.ВКМ_ГрафикиРабот</content>
-  <content>Catalog.ВКМ_ГрафикиРабот</content>
   <content>Catalog.BKM_Сотрудники</content>
-  <content>Report.BKM_РасходЗапланированныхОтпусков</content>
-  <content>DataProcessor.ВКМ_ЗаполнитьГрафикРабот</content>
-  <content>AccumulationRegister.BKM_ВзаиморасчетыССотрудниками</content>
-  <content>AccumulationRegister.BKM_ВыполненныеСотрудникомРаботы</content>
-  <content>CalculationRegister.BKM_Удержания</content>
-  <content>CalculationRegister.BKM_ДополнительныеНачисления</content>
-  <content>CalculationRegister.BKM_ОсновныеНачисления</content>
+  <content>Catalog.ВКМ_ГрафикиРабот</content>
+  <content>Catalog.ВКМ_Подразделение</content>
+  <content>Document.BKM_НачислениеЗаработнойПлаты</content>
+  <content>Document.BKM_НачислениеФиксированнойПремии</content>
+  <content>Document.BKM_ВыплатаЗарплаты</content>
+  <content>Document.BKM_ГрафикОтпусков</content>
   <content>Report.ВКМ_ВыработкаСпециалистов</content>
+  <content>Report.ВКМ_АнализВыставленныхАктов</content>
+  <content>DataProcessor.BKM_МассовоеСозданиеАктов</content>
+  <content>DataProcessor.ВКМ_ЗаполнитьГрафикРабот</content>
+  <content>InformationRegister.ВКМ_ГрафикиРабот</content>
+  <content>InformationRegister.ВКМ_УсловияОплатыСотрудников</content>
+  <content>InformationRegister.ВКМ_СведенияОбОтпусках</content>
+  <content>AccumulationRegister.BKM_ВыполненныеКлиентуРаботы</content>
+  <content>AccumulationRegister.BKM_ВыполненныеСотрудникомРаботы</content>
+  <content>AccumulationRegister.BKM_ВзаиморасчетыССотрудниками</content>
+  <content>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</content>
+  <content>CalculationRegister.ВКМ_ОсновныеНачисления</content>
+  <content>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</content>
+  <content>CalculationRegister.ВКМ_ДополнительныеНачисления</content>
+  <content>ChartOfCalculationTypes.ВКМ_Удержания</content>
+  <content>CalculationRegister.ВКМ_Удержания</content>
+  <content>Report.BKM_РасчетыССотрудниками</content>
+  <content>Report.BKM_РасходЗапланированныхОтпусков</content>
 </mdclass:Subsystem>

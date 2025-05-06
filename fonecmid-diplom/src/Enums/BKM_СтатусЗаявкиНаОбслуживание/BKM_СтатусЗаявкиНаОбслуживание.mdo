@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c348d66b-1025-49a2-85ad-f9c025480a7f">
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="921a6339-c6e5-4aa6-b4df-b7b02ed60558">
   <producedTypes>
-    <refType typeId="2723ea0a-65a6-4b34-8244-74f8bfc9f6b2" valueTypeId="9f2ba389-edb2-4628-babd-de9191669700"/>
-    <listType typeId="ccf8119f-face-4763-a434-463f3a7b7774" valueTypeId="cbd9ffee-1dcd-492a-84f0-220db01464f2"/>
-    <managerType typeId="873fc35f-9668-4eb4-ae87-59f4071d92d9" valueTypeId="ed93d346-b5cf-44bb-a807-7e5592b9b46d"/>
+    <refType typeId="92ae9143-b27d-4c93-a616-63e38cd77680" valueTypeId="4010df20-b390-4e48-8f28-fc4e31bcf388"/>
+    <listType typeId="2e4d4d33-6e0e-43f7-85f7-05d24ba681df" valueTypeId="aed12896-623e-48f1-8e68-383c487ea483"/>
+    <managerType typeId="4770ce18-1f70-4b48-a752-09b761b61c83" valueTypeId="c67aa991-c254-4111-ac4e-c3d6010f046b"/>
   </producedTypes>
   <name>BKM_СтатусЗаявкиНаОбслуживание</name>
   <synonym>
@@ -28,14 +28,14 @@
   </standardAttributes>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
-  <enumValues uuid="d9c2101c-5797-4b36-9eaa-3fd056159861">
+  <enumValues uuid="dd6d6464-d04b-4a35-ae72-ca9ded317104">
     <name>ОжидаетсяВыполнение</name>
     <synonym>
       <key>ru</key>
       <value>Ожидается выполнение</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="d2d461b9-e88e-467d-9647-0edcd266e835">
+  <enumValues uuid="a313a094-b7d6-4515-bd5f-171fcf7d59b8">
     <name>Выполнена</name>
     <synonym>
       <key>ru</key>

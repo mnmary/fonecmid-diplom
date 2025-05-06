@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6363c8e5-61d0-4f4a-a52a-02e153c123ea">
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6937bada-462b-4eb8-b3bf-2e75167a0e6e">
   <producedTypes>
-    <objectType typeId="57c016d4-35de-4e9c-81bc-8791ef6ddd6c" valueTypeId="6e1ecf59-c3a6-49c8-a3e0-3d074eca3337"/>
-    <managerType typeId="06523c6d-3326-4014-bbd3-71a88ab99d90" valueTypeId="8872f8eb-ecc9-47ee-90fe-f6221850afad"/>
+    <objectType typeId="e7df6633-f059-419d-aed4-34d2e4215960" valueTypeId="8cf1448d-1874-433f-ab58-d02fe8883836"/>
+    <managerType typeId="c382fd9d-4d4f-4dd1-9f0b-bc63b41d5601" valueTypeId="f43f323c-381f-4d98-a118-d004e0f27ebd"/>
   </producedTypes>
   <name>BKM_РасчетыССотрудниками</name>
   <synonym>
@@ -11,7 +11,7 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <mainDataCompositionSchema>Report.BKM_РасчетыССотрудниками.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
-  <templates uuid="4a7b83e8-8658-4f37-b1fa-b64aa92451fe">
+  <templates uuid="f0f66abc-fe3c-46d5-8d2f-b0cdfbf9dad3">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
     <synonym>
       <key>ru</key>

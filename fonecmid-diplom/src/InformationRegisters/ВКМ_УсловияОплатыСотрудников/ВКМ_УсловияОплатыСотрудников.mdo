@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5e966b4d-ea12-4c93-a46c-67b75b59124d">
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3744253c-4dcb-48cd-a180-bf3e76da8f41">
   <producedTypes>
-    <selectionType typeId="58b40829-19a3-4b6a-a006-1bf53bdab550" valueTypeId="7c7e5406-c038-4c06-bc40-62d1ed23db48"/>
-    <listType typeId="281cea9b-a0db-43c0-bb69-518741ba3d97" valueTypeId="0bc9ca65-bf82-47bc-aa35-9bfb878525dd"/>
-    <managerType typeId="4404b10a-2b4c-4ae0-bb6d-fd7e4f9c0230" valueTypeId="cf58ba9f-e0a6-422a-bab5-88a3b6d63114"/>
-    <recordSetType typeId="8e50c906-7438-4e80-b9a0-1e084791eea3" valueTypeId="33b316dc-f456-4a75-82fa-bd45a954a755"/>
-    <recordKeyType typeId="529595bf-b4b8-4f24-9a55-45f4fd45dfe4" valueTypeId="9d9689cf-851c-4ccf-b530-03ed4c08dfce"/>
-    <recordType typeId="00f7727c-b693-498e-9b8a-e3241fdcedf6" valueTypeId="90c6135d-5459-437f-8121-1991d3686997"/>
-    <recordManagerType typeId="86c6f145-e7ef-4882-8d0d-6cb5dc24e113" valueTypeId="b30f0f10-950e-4984-b692-8d86d7e66861"/>
+    <selectionType typeId="bd880d87-8440-484b-accb-8b101cd0aadc" valueTypeId="c284cae0-77de-4dae-839a-b3ee566d1595"/>
+    <listType typeId="58557375-e795-4561-928e-11b4ba9a9283" valueTypeId="58b873e3-7e07-4f1a-a626-4b92b1ed853c"/>
+    <managerType typeId="e12176eb-53c7-4d81-9c2c-11c86799b406" valueTypeId="9c17bede-dff2-435c-b2ed-27a8a677e63d"/>
+    <recordSetType typeId="53949a87-eca0-430a-a6ab-1a1f98a2939d" valueTypeId="5d2bc443-857d-4aa2-bb82-f586ad33a2bd"/>
+    <recordKeyType typeId="02af3218-595b-44fb-9302-e801581d5674" valueTypeId="84d069fc-4a15-451e-a8a6-1bdab663e3eb"/>
+    <recordType typeId="4e5404db-6740-46a1-9a73-622ba2315ac3" valueTypeId="878fa191-b399-4346-bc5a-ed670783a69b"/>
+    <recordManagerType typeId="4d2f6b88-be17-44d6-9191-ab01ddda72b0" valueTypeId="c172c932-5e7b-4b56-98f8-6236a00ab13f"/>
   </producedTypes>
   <name>ВКМ_УсловияОплатыСотрудников</name>
   <synonym>
@@ -56,7 +56,7 @@
     <key>ru</key>
     <value>Условия оплаты сотрудника</value>
   </recordPresentation>
-  <resources uuid="5d102569-94b9-4f60-8da5-f8cbc4e2dd79">
+  <resources uuid="748b6811-5c32-4ea1-bc1b-168b45dea600">
     <name>Оклад</name>
     <synonym>
       <key>ru</key>
@@ -75,7 +75,7 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <resources uuid="4f93b8fd-3327-4e2b-80ef-bbaa28fb46ae">
+  <resources uuid="b8768037-8f9b-4f3f-bcf7-c43a0a3ea27c">
     <name>ПроцентОтРабот</name>
     <synonym>
       <key>ru</key>
@@ -94,7 +94,7 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <resources uuid="869b88dd-4535-4397-90e7-473abc99b009">
+  <resources uuid="c977cc4d-65d3-48b9-9030-dbb18af7e9d9">
     <name>График</name>
     <synonym>
       <key>ru</key>
@@ -109,7 +109,7 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <resources uuid="66be8439-bd1c-4a22-9e5e-c3e65e51c5f7">
+  <resources uuid="85b88c24-5d06-4911-8d24-6061e5ade51d">
     <name>Подразделение</name>
     <synonym>
       <key>ru</key>
@@ -124,7 +124,7 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <dimensions uuid="9a08a187-a055-4435-8e14-f5e6d9001989">
+  <dimensions uuid="b872e5d6-c93b-4388-8658-27c07d2ce979">
     <name>Сотрудник</name>
     <synonym>
       <key>ru</key>

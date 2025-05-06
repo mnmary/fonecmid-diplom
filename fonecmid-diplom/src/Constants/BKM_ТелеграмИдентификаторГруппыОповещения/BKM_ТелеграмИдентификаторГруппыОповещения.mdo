@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2d665824-4635-4f11-8421-9a3153a41a5f">
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd8a36a3-77ce-4989-b755-9c806a41c647">
   <producedTypes>
-    <managerType typeId="f566227e-bb17-4239-a27a-b9b3e3a27893" valueTypeId="5770f71d-18dc-4163-9b39-f508ce05561a"/>
-    <valueManagerType typeId="ef03b968-1a5d-4d55-a11f-279024ca6b5a" valueTypeId="2d1064f6-5ac8-4be0-931d-bee653658c59"/>
-    <valueKeyType typeId="eb62fd46-7502-43c6-a126-aae30e2dd65f" valueTypeId="35129dff-9754-40b0-8b3b-1acb589d8cf3"/>
+    <managerType typeId="27d32dcf-4e54-45cd-9cb7-93975625b052" valueTypeId="fb00229c-191b-4d56-9e50-39be3ff03c84"/>
+    <valueManagerType typeId="4384315d-6be1-4d46-ae37-cce8d3bf9f81" valueTypeId="38248287-bb93-4abf-a7f5-331119b01d78"/>
+    <valueKeyType typeId="692e80dc-df22-491e-a06b-67e116461e0c" valueTypeId="44ae548b-f8ee-4c26-b2f6-e9bbb7cb2548"/>
   </producedTypes>
   <name>BKM_ТелеграмИдентификаторГруппыОповещения</name>
   <synonym>

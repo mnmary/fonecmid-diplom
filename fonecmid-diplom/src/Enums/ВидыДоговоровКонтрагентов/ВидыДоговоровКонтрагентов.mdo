@@ -26,7 +26,7 @@
       <value>Покупатель</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="97d9ea4a-04d4-43b3-b609-0e34c621b6a1">
+  <enumValues uuid="870f8cea-bdd3-49f1-85c1-a4e9175e9f1d">
     <name>BKM_АбонентскоеОбслуживание</name>
     <synonym>
       <key>ru</key>

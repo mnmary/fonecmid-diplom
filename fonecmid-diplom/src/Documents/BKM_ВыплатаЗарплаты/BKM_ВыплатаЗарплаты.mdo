@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36d4de16-2c64-459a-88be-6f4940b42a3a">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd22dbad-c864-4778-bbd1-21a4d86ed0e1">
   <producedTypes>
-    <objectType typeId="783e7ee3-acb9-4bf9-95c3-689f2f23688a" valueTypeId="42d6e3bf-ed6b-4473-bbc9-399c347d5181"/>
-    <refType typeId="97e37914-96d6-4597-8c73-14e39af3d442" valueTypeId="87a9a98b-465e-4e1d-84eb-2b4e89ebb6f4"/>
-    <selectionType typeId="fa15d428-0bde-4f18-8365-ec5a960c5a0b" valueTypeId="9d9283c7-02dd-4dcf-9eea-aeda860b2d9d"/>
-    <listType typeId="523f2944-de8f-40ce-bd14-a964ccf76c68" valueTypeId="9fd5faf0-7a75-4dc1-b233-551e5a902e62"/>
-    <managerType typeId="4cada647-894e-4786-8274-0f4ac4667553" valueTypeId="e024ab47-9191-4394-aaf1-de68e5f93b43"/>
+    <objectType typeId="95a21cf5-7775-4c4c-9a8b-df166febcdd1" valueTypeId="1a843eca-0872-4784-8604-f48767b41d4f"/>
+    <refType typeId="0717302c-7a93-48c4-ad9a-f69ae8c09273" valueTypeId="39710772-1d97-437a-94fc-cbf67e8e137e"/>
+    <selectionType typeId="99f9edc1-bf92-4d35-80ec-5ed5ecd4edcc" valueTypeId="f97e4822-140b-461b-8a04-05fc96622fc2"/>
+    <listType typeId="f9178376-6921-4155-ba08-9ff8d98e1ffc" valueTypeId="b191a4e7-8d63-4488-a7af-0248cc7c355a"/>
+    <managerType typeId="bb2f02ea-942c-4bc7-b7bf-265e993ced38" valueTypeId="d04fc91a-f4b9-4e00-99fb-f6ed37374b9a"/>
   </producedTypes>
   <name>BKM_ВыплатаЗарплаты</name>
   <synonym>
@@ -71,7 +71,7 @@
   <registerRecords>AccumulationRegister.BKM_ВзаиморасчетыССотрудниками</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="5df9c541-b393-4aea-a8b3-b79869a55864">
+  <attributes uuid="164ef051-6b42-4fe5-ae22-2df665da4c27">
     <name>Ответственный</name>
     <synonym>
       <key>ru</key>
@@ -86,7 +86,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="57892dd5-8d2b-4c67-9aec-f5acb21ebdbb">
+  <attributes uuid="f32d9604-842b-4577-8493-680f0436887c">
     <name>Комментарий</name>
     <synonym>
       <key>ru</key>
@@ -103,10 +103,10 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <tabularSections uuid="53c6af39-9864-4030-b2be-0c900e35abf0">
+  <tabularSections uuid="0c3e8816-698a-4ae1-ae8f-2a91eba06249">
     <producedTypes>
-      <objectType typeId="eafe8ffd-1c48-4ab6-96d6-49c581fe4bf0" valueTypeId="9ddddacd-9386-4664-8868-2a3c639bc73d"/>
-      <rowType typeId="18d71be7-a462-4d60-8c87-861ee6a8782b" valueTypeId="a2f69ad2-5200-4e21-b0db-d585061f72fd"/>
+      <objectType typeId="7b20824b-3e4c-4e37-98af-8804a1e48861" valueTypeId="a58dadde-2ed6-47ea-b564-c26deca26799"/>
+      <rowType typeId="55decd5d-3d56-44e6-8495-11921de7178c" valueTypeId="444e2e6f-b527-42ee-b1d0-dbd5913378f4"/>
     </producedTypes>
     <name>Выплаты</name>
     <synonym>
@@ -121,7 +121,7 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
     </standardAttributes>
-    <attributes uuid="7dd7ecdf-3d5e-4eb0-8d71-24f9541e4ef6">
+    <attributes uuid="1dda9c99-6789-4d22-920d-6566934ed011">
       <name>Сотрудник</name>
       <synonym>
         <key>ru</key>
@@ -135,7 +135,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="74dd49a9-be84-4dee-b199-6ee8ed1c1291">
+    <attributes uuid="20ec5308-5138-40aa-8478-9f1c5c7cb79c">
       <name>Сумма</name>
       <synonym>
         <key>ru</key>

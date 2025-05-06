@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="484f51f4-7d4c-4560-a906-49bdcaf00a51">
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df4fa754-539e-49bb-8178-999ebdbaaf77">
   <producedTypes>
-    <selectionType typeId="5fcd35f6-a4f8-46fa-b5a0-14fa29f422bc" valueTypeId="6a9bb8fd-8f6d-419a-9fee-0a62e2b999a2"/>
-    <listType typeId="efda506f-88e8-4e7d-a666-158d0ff463ce" valueTypeId="9fb54a49-0e0f-4976-b60e-bcfdb51115cb"/>
-    <managerType typeId="6400837c-4bc3-49ef-be7c-f1ec20206d30" valueTypeId="4dc1de81-4e57-478f-9a68-3bf98f2ea199"/>
-    <recordSetType typeId="0194f2cc-e2e5-4bfb-8aa1-7c7eb008d11b" valueTypeId="214b6a87-5f30-46cf-a3c3-d6a8f0e8cee0"/>
-    <recordKeyType typeId="24752c71-d536-4573-8be3-5661130b21e7" valueTypeId="e8d44771-96c4-474c-a8e8-259989f112f8"/>
-    <recordType typeId="28c78582-092d-4c1b-85a7-5c37d85ba639" valueTypeId="54b78aef-413f-444e-9718-bac0db0e55a3"/>
+    <selectionType typeId="31c2bcc1-d42c-43fa-923b-99feb95f37b2" valueTypeId="227912e2-eb3f-4e98-8bc4-932831611437"/>
+    <listType typeId="c63b57cb-0387-4fdd-b3e3-bc84901d3e04" valueTypeId="13f44518-bd29-49b8-b0b4-697381a5f6c9"/>
+    <managerType typeId="88e6fc4d-1382-407f-bb9a-c440e607fd97" valueTypeId="3f65b277-57e1-4afb-801d-96c9a573012b"/>
+    <recordSetType typeId="637a1247-bce4-4680-9512-d46cff17a8f1" valueTypeId="42bb5e07-6ced-4393-bdb3-7e4de441ceea"/>
+    <recordKeyType typeId="825617e9-286d-4732-aed1-cab977eaa8f9" valueTypeId="8cb5168a-9fab-4044-8f2b-4aa0064c845a"/>
+    <recordType typeId="21296600-3133-4843-b801-33335280a30c" valueTypeId="fbd77984-da70-4fe2-9cae-ec365b22a0ff"/>
   </producedTypes>
   <name>BKM_ВыполненныеКлиентуРаботы</name>
   <synonym>
@@ -57,7 +57,7 @@
   </standardAttributes>
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
-  <resources uuid="59811bcd-f2c9-4d35-a446-03cd9cc72b93">
+  <resources uuid="f6ecbccc-2718-4bc5-8f4c-c519fa5f16db">
     <name>КоличествоЧасов</name>
     <synonym>
       <key>ru</key>
@@ -74,7 +74,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
-  <resources uuid="5ea1989e-5b76-4ec2-909f-9952c436bd19">
+  <resources uuid="2064988d-e365-4376-9e8f-65244eafca41">
     <name>СуммаКОплате</name>
     <synonym>
       <key>ru</key>
@@ -91,7 +91,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
-  <dimensions uuid="4d3d092b-ff25-44d2-8431-bc451c59d840">
+  <dimensions uuid="53e2d5fa-f282-43c8-ab65-d293cc47961c">
     <name>Клиент</name>
     <synonym>
       <key>ru</key>
@@ -105,7 +105,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>
-  <dimensions uuid="d5512ba7-0018-4d16-845c-8a1a3d20c35f">
+  <dimensions uuid="50f7aa35-4e30-4506-9ef9-5bd52ba182b5">
     <name>Договор</name>
     <synonym>
       <key>ru</key>

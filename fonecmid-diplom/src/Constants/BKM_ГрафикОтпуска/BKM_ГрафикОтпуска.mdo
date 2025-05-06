@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32da0400-1cd3-449d-87af-66701b901385">
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="51d9a8e5-d21e-4d38-bb4f-88e265c480b6">
   <producedTypes>
-    <managerType typeId="c75fe496-f833-4267-9625-9d1b6e519989" valueTypeId="d232bfe3-3011-4e37-82c2-5057be2a55e1"/>
-    <valueManagerType typeId="3c04db22-302a-4baa-8ddf-3812cf8080c2" valueTypeId="8d54a820-87a3-4c60-a469-fcd8f6ee880f"/>
-    <valueKeyType typeId="8cc3178c-039f-4911-ae88-be03455ddb52" valueTypeId="40361c72-2a78-4eec-b45c-571fcf206c93"/>
+    <managerType typeId="2283193e-aa96-4e8a-ba17-dbd3b64f7728" valueTypeId="b09ca039-938d-4302-92e2-a925fd27f05e"/>
+    <valueManagerType typeId="c7119ccb-6dca-4434-9d15-b2f7c2e33da1" valueTypeId="aa2287c9-65df-421c-854f-6663e2ef7864"/>
+    <valueKeyType typeId="9902c275-b698-405d-98e1-10897442f0e3" valueTypeId="7ede5bdd-7c6d-48c9-b257-3e5dbbca9714"/>
   </producedTypes>
   <name>BKM_ГрафикОтпуска</name>
   <synonym>

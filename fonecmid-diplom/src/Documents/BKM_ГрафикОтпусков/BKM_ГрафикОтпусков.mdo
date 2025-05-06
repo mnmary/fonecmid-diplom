@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a8696d6-7a02-4301-a560-cfc6ae76931c">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a515c8f6-1178-4c4d-9bdf-f5dd550da998">
   <producedTypes>
-    <objectType typeId="68120e81-ffa8-4843-9b31-74363561a5fe" valueTypeId="0be7c860-ddac-47f8-9fd5-88971735fd0d"/>
-    <refType typeId="f9efe7fe-c2ff-4f7b-bcb6-23e77b998a56" valueTypeId="e59582f0-d9d1-4f1d-9ec9-8229a2456097"/>
-    <selectionType typeId="f41abf41-bf07-42e6-8124-d9fb495dcf03" valueTypeId="37cdd022-0742-453b-a156-ffb7a5fc7701"/>
-    <listType typeId="1c3a1d2c-f25b-4a93-818d-d4132788046a" valueTypeId="81c5436b-dab1-4910-83e4-1d9d85599b69"/>
-    <managerType typeId="dec4e6ff-cb6a-4c76-a427-c663dd7557a1" valueTypeId="6661a3e1-4256-41d1-af91-f57ed74fe4b3"/>
+    <objectType typeId="b70cc701-f6ed-4f55-90fc-a078bccff4c8" valueTypeId="b72cc7ed-50ca-48d8-ba19-15e06a95babc"/>
+    <refType typeId="076afcec-96b3-4c4f-bf34-a5eb3e436356" valueTypeId="5dbffb05-f868-4884-8316-c8f2cc422ec5"/>
+    <selectionType typeId="d0aaf54c-d1fd-4fcf-97d8-05f54bd7c1b6" valueTypeId="76c4a520-1dbc-4cb6-8b4c-47cea99818d6"/>
+    <listType typeId="8e3151e9-b351-485a-ad9b-e825ff70c266" valueTypeId="a037900b-31d8-4bab-b638-52892b731536"/>
+    <managerType typeId="5794a9af-cca7-41a8-8984-88c52042c1b7" valueTypeId="a6a281aa-0e16-4a7d-867d-de7e6ce3ee6e"/>
   </producedTypes>
   <name>BKM_ГрафикОтпусков</name>
   <synonym>
@@ -69,10 +69,10 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.BKM_ГрафикОтпусков.Form.ФормаДокумента</defaultObjectForm>
-  <registerRecords>InformationRegister.BKM_СведенияОбОтпусках</registerRecords>
+  <registerRecords>InformationRegister.ВКМ_СведенияОбОтпусках</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="a4e2ca18-ffa3-4b7f-93d6-7265a9e003d5">
+  <attributes uuid="e0cb8f7e-8bf9-44e7-93a0-77755df21a03">
     <name>Год</name>
     <synonym>
       <key>ru</key>
@@ -98,7 +98,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="5ae07abf-6de3-49b7-9aea-3ccfb26030c1">
+  <attributes uuid="353d97d3-072b-44ad-9c66-f9efa9027b46">
     <name>Комментарий</name>
     <synonym>
       <key>ru</key>
@@ -115,7 +115,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="ed64828b-c6aa-4750-85cd-f3ca06738199">
+  <forms uuid="5af61c40-6f70-4327-82b4-dc40dfc1d095">
     <name>ФормаДокумента</name>
     <synonym>
       <key>ru</key>
@@ -124,7 +124,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="d0009817-86f4-40eb-aaf7-ddf33a8454fd">
+  <forms uuid="36b7c446-7c10-4791-ac33-92e31517639d">
     <name>ФормаАнализаГрафика</name>
     <synonym>
       <key>ru</key>
@@ -133,10 +133,10 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <tabularSections uuid="e736e10c-3c9e-48fa-bac3-c9097fe3d921">
+  <tabularSections uuid="1093d8a8-4980-4763-b4dc-db553c204177">
     <producedTypes>
-      <objectType typeId="44edcdd3-d354-4792-9802-2ed1e30d3efb" valueTypeId="dc4d7a4b-7d54-437a-ad2e-30ecd3cb7a07"/>
-      <rowType typeId="e469851e-1b76-493d-a4c0-f08cf462bfde" valueTypeId="a8b57bd9-1761-410a-83dd-2d42ecd70169"/>
+      <objectType typeId="962aa74b-e4df-4ec1-a8b3-a6dfc278706f" valueTypeId="1c798490-1704-40b2-a2ce-bef9ba044cd6"/>
+      <rowType typeId="e404b806-0630-4391-93e6-f3023d78a71b" valueTypeId="d4400fc9-7a21-4af5-9133-2d7b66740d32"/>
     </producedTypes>
     <name>ОтпускаСотрудников</name>
     <synonym>
@@ -151,7 +151,7 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
     </standardAttributes>
-    <attributes uuid="ba003074-2993-4cb9-85ae-36d9948b0ac7">
+    <attributes uuid="98be2de0-c3c8-458d-a87a-d9679ccc1149">
       <name>Сотрудник</name>
       <synonym>
         <key>ru</key>
@@ -165,7 +165,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="c729d56e-6c74-41ba-8a98-a5bbc2c02e40">
+    <attributes uuid="466c5f85-7c9a-47d4-ba50-e8861f152d18">
       <name>ДатаНачала</name>
       <synonym>
         <key>ru</key>
@@ -182,7 +182,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="a5f0d8fa-560c-4998-bb41-4c405add78eb">
+    <attributes uuid="b754b8e5-4e10-413b-b009-6bece6edf5b2">
       <name>ДатаОкончания</name>
       <synonym>
         <key>ru</key>
@@ -199,7 +199,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="0d3a1ae4-e84f-4954-9c5d-9a5f2fb2e1f4">
+    <attributes uuid="7f0c33a6-5fe0-4a03-9e04-b4ed5b540a07">
       <name>ПродолжительностьОтпуска</name>
       <synonym>
         <key>ru</key>
@@ -216,7 +216,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="8070e783-629e-4db7-9d01-2b51ddc25010">
+    <attributes uuid="fde72e0f-d0a3-47f1-b97c-9be5f51a98ac">
       <name>ОбщееКоличествоДнейОтпуска</name>
       <synonym>
         <key>ru</key>
