@@ -141,7 +141,7 @@
 						<dcsat:appearance>
 							<dcscor:item>
 								<dcscor:parameter>Формат</dcscor:parameter>
-								<dcscor:value xsi:type="xs:string">ДФ=dd.MM.yyyy</dcscor:value>
+								<dcscor:value xsi:type="xs:string">ДФ=yyyy</dcscor:value>
 							</dcscor:item>
 						</dcsat:appearance>
 					</dcsat:item>
@@ -150,16 +150,21 @@
 						<dcsat:appearance>
 							<dcscor:item>
 								<dcscor:parameter>Формат</dcscor:parameter>
-								<dcscor:value xsi:type="xs:string">ДФ=dd.MM.yyyy</dcscor:value>
+								<dcscor:value xsi:type="xs:string">ДФ=yyyy</dcscor:value>
 							</dcscor:item>
 						</dcsat:appearance>
 					</dcsat:item>
 					<dcsat:item xsi:type="dcsat:Field">
-						<dcsat:value xsi:type="v8:LocalStringType"/>
+						<dcsat:value xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content> год</v8:content>
+							</v8:item>
+						</dcsat:value>
 						<dcsat:appearance>
 							<dcscor:item>
 								<dcscor:parameter>Формат</dcscor:parameter>
-								<dcscor:value xsi:type="xs:string">ДФ=dd.MM.yyyy</dcscor:value>
+								<dcscor:value xsi:type="xs:string">ДФ=yyyy</dcscor:value>
 							</dcscor:item>
 						</dcsat:appearance>
 					</dcsat:item>
