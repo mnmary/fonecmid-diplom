@@ -112,7 +112,6 @@
     </gaugeBushColor>
     <autoMaxValue>true</autoMaxValue>
     <autoMinValue>true</autoMinValue>
-    <elementsIsInit>true</elementsIsInit>
     <titleIsInit>true</titleIsInit>
     <legendIsInit>true</legendIsInit>
     <chartIsInit>true</chartIsInit>
@@ -270,7 +269,7 @@
       <color>Style.FormTextColor</color>
     </textColor>
   </timeScale>
-  <keepScaleVariant>AllData</keepScaleVariant>
+  <keepScaleVariant>Auto</keepScaleVariant>
   <fixedVariantMeasure>Month</fixedVariantMeasure>
   <fixedVariantInterval>1</fixedVariantInterval>
   <autoFullInterval>true</autoFullInterval>

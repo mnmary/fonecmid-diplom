@@ -68,6 +68,7 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.BKM_НачислениеЗаработнойПлаты.Form.ФормаДокумента</defaultObjectForm>
   <realTimePosting>Deny</realTimePosting>
   <registerRecords>CalculationRegister.ВКМ_Удержания</registerRecords>
   <registerRecords>AccumulationRegister.BKM_ВыполненныеСотрудникомРаботы</registerRecords>
@@ -108,6 +109,15 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="aaffd5da-f84f-43af-ad1d-86dd656eed07">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="68ed7dcd-98c0-42e7-bd37-4c6404f8f867">
     <producedTypes>
       <objectType typeId="97d744e4-9dd5-46f2-a5d8-9ed8ebb4e8a7" valueTypeId="6f33b0d1-fbd6-49b6-9429-856e88dcc0f9"/>

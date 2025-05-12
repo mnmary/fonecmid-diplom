@@ -39,6 +39,13 @@
   <baseCalculationTypes>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</baseCalculationTypes>
   <baseCalculationTypes>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</baseCalculationTypes>
   <predefined>
+    <items id="8e750b8d-c842-4bcb-9e1e-309f9d719925">
+      <name>ПремияПроцентом</name>
+      <description>Премия процентом</description>
+      <code xsi:type="core:StringValue">
+        <value>4</value>
+      </code>
+    </items>
     <items id="d2e62c2f-bf23-4d1f-8ece-2ccb9be1bd01">
       <name>ПремияФиксированная</name>
       <description>Премия фиксированная</description>
